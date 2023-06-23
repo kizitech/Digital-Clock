@@ -10,6 +10,10 @@ This README provides information about a digital clock built using HTML, CSS, an
 
 ![Screenshot of Digital Clock](Images/screenshot.JPG)
 
+## Links
+
+Live link url [here](https://kizitech.github.io/Digital-Clock/)
+
 ## Technologies Used
 
 - HTML: Provides the structure and layout of the clock.
