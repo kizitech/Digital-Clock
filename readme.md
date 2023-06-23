@@ -76,13 +76,3 @@ If you encounter any issues or have any questions regarding the digital clock pr
 
 - LinkedIn - [Ohani Kizito](https://www.linkedin.com/in/ohanikizito/)
 - Twitter - [Ohani_Kizito](https://www.twitter.com/Ohani_Kizito)
-
-
-
-
-
-
-
-
-# Digital-Clock git init git add . git commit -m first commit git branch -M main git remote add origin https://github.com/kizitech/Digital-Clock.git git push -u origin main
-# Digital-Clock
