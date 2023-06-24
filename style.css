@@ -29,17 +29,64 @@ body {
     border: 1.5px solid rgba(255, 255, 255, 0.06);
 }
 
-a:link {
+.cta {
     bottom: 20%;
-    left: 50%;
+    border: none;
+    background: none;
+    position: absolute;
+}
+
+.cta span {
+    padding-right: 10px;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.cta svg {
+    margin-bottom: 5px;
+    transition: all 0.3s ease;
+    transform: translateX(-8px) rotate(-60deg);
+}
+
+.cta:hover svg {
+    transform: translateX(0);
+}
+
+.cta:active svg {
+    transform: scale(1);
+}
+
+.hover-underline-animation {
+    position: relative;
+    color: #EDEDED;
+    padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+    content: "";
+    position: absolute;
     width: 100%;
-    font-size: 30px;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #EDEDED;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+a:link {
+    font-size: 35px;
+    font-weight: 600;
     color: #EDEDED;
     text-align: center;
-    position: absolute;
     text-decoration: none;
-    content: "DIGITAL CLOCK";
-    transform: translateX(-50%);
+    transition: opacity .5s ease;
 }
 
 a:visited {
@@ -68,4 +115,3 @@ a:visited {
     font-size: 30px;
     color: #446b87;
 }
-
